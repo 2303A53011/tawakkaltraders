@@ -130,7 +130,7 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
               <div className="absolute inset-0 bg-gradient-to-t from-[#1B4332]/80 to-transparent z-10"></div>
               <AppImage
-                src="https://images.unsplash.com/photo-1539054835453-b355181a66b1"
+                src="/assets/images/image_hero.jpeg"
                 alt="Fresh betel leaves arranged artistically with traditional paan ingredients including gulkand, supari, and fennel seeds on marble counter"
                 className="w-full h-[600px] object-cover" />
 
@@ -160,5 +160,6 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
     </section>);
 
 };
+
 
 export default HeroSection;
